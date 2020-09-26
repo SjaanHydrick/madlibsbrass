@@ -19,6 +19,13 @@ const adjOutput = document.getElementById("adjective");
 const verbOutput = document.getElementById("verb");
 const animalOutput = document.getElementById("animal");
 
+// name-2, noun1-2, name-3, noun2-2, noun1-3
+const name2Output = document.getElementById("name-2");
+const noun12Output = document.getElementById("noun1-2");
+const name3Output = document.getElementById("name-3");
+const noun22Output = document.getElementById("noun2-2");
+const noun13Output = document.getElementById("noun1-3");
+
 button.addEventListener('click', () => {
     const geoInputValue = geoInput.value;
     const placeNameInputValue = placeNameInput.value;
@@ -29,5 +36,22 @@ button.addEventListener('click', () => {
     const verbInputValue = verbInput.value;
     const animalInputValue = animalInput.value;
 
-}
-)
+    // set each output to the values above
+    geoOutput.textContent = geoInputValue;
+    placeNameOutput.textContent = placeNameInputValue;
+    nameOutput.textContent = nameInputValue;
+    noun1Output.textContent = noun1InputValue;
+    noun2Output.textContent = noun2InputValue;
+    adjOutput.textContent = adjInputValue;
+    verbOutput.textContent = verbInputValue;
+    animalOutput.textContent = animalInputValue;
+    
+    name2Output.textContent = nameInputValue;
+    noun12Output.textContent = noun1InputValue;
+    name3Output.textContent = nameInputValue;
+    noun22Output.textContent = noun2InputValue;
+    noun13Output.textContent = noun1InputValue;
+    
+    // toggle hidden somehow?
+
+});
