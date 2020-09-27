@@ -1,7 +1,67 @@
-#hidden {
-    display: none;
+head {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-image: url(https://lh3.googleusercontent.com/proxy/h4TASz5aoABkiYp6AzDoX15Bl7obijXwc2pB_CrDfAhEC9tZVyXVigSrsTXLMr8YBLsrRoRuSqt0Cm9iOZNIkEs_IzCeLoFByh3BtddZnG-FWcMeAOCZWiDvCrT7AwlTnFHC2M2DJzMIEJA);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: lightblue;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Didot, serif;
+    color: lightcyan;
+}
+
+section {
+    
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+div {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    color: darkblue;
+}
+
+input {
+    background-color: lightcyan;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: lightblue;
+    font-family: Didot, serif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+p {
+    margin-right: 70px;
+    text-align: right;
+    font-family: Didot, serif;
+    color: white;
+    font-size: 14pt;
 }
 
 span {
-    color: green;
+    color: darkblue
+}
+
+#hidden {
+    display: none;
 }
