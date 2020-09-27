@@ -19,10 +19,6 @@ h1 {
     color: lightcyan;
 }
 
-section {
-    
-}
-
 .columns {
     display: grid;
     grid-template-columns: 30% 70%;
@@ -62,6 +58,6 @@ span {
     color: darkblue
 }
 
-#hidden {
+.hidden {
     display: none;
 }

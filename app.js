@@ -42,14 +42,12 @@ const facialExpressionOutput = document.getElementById("facialexpression");
 const emotion2Output = document.getElementById("emotion2");
 const animal2Output = document.getElementById("animal2");
 const noun21Output = document.getElementById("noun2-1");
-
-
-// name-2, noun1-2, name-3, noun2-2, noun1-3
 const name2Output = document.getElementById("name-2");
 const noun12Output = document.getElementById("noun1-2");
 const name3Output = document.getElementById("name-3");
 const noun22Output = document.getElementById("noun2-2");
 const noun13Output = document.getElementById("noun1-3");
+const poem = document.getElementById("poem");
 
 button.addEventListener('click', () => {
     const geoInputValue = geoInput.value;
@@ -70,10 +68,6 @@ button.addEventListener('click', () => {
     const noun4InputValue = noun4Input.value;
     const facialExpressionInputValue = facialExpressionInput.value;
     
-    
-
-
-
     // set each output to the values above
     geoOutput.textContent = geoInputValue;
     placeNameOutput.textContent = placeNameInputValue;
@@ -105,7 +99,6 @@ button.addEventListener('click', () => {
     noun4Output.textContent = noun4InputValue;
     facialExpressionOutput.textContent = facialExpressionInputValue;
     
-    
-    // toggle hidden somehow?
+    poem.classList.toggle("hidden");
 
 });
